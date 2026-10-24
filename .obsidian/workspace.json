@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_coverpage.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "_coverpage"
+              "title": "README"
             }
           }
         ]
@@ -190,21 +190,21 @@
   },
   "active": "0ba9b289199a8706",
   "lastOpenFiles": [
-    "README.md",
-    "pic/frisk.png",
-    "frisk.png",
-    "nchu.ico",
     "_coverpage.md",
+    "pic/p1.jpg",
+    "pic/nchu.png",
+    "pic/frisk.png",
+    "pic",
+    "nchu.png",
+    "nchu.ico",
+    "README.md",
+    "frisk.png",
     "C/C语言基础语法.md",
     "C/逃逸字符.md",
     "_sidebar.md",
     "nchu.ico.crdownload",
-    "pic/p1.jpg",
-    "pic/nchu.png",
-    "pic",
     "新建文件夹",
     "p1.jpg",
-    "nchu.png",
     "C/运算符.md",
     "C/结构体struct.md",
     "C/自定义类型typedef.md",
