@@ -1,0 +1,162 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+
+  <title>HRJ笔记</title>
+  <!-- 添加下面这行来设置浏览器标签图标 -->
+  <link rel="icon" href="pic/frisk.png">
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+  <!-- Core Theme -->
+  <!-- v5 核心主题（必需） -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@5/dist/themes/core.min.css">
+  <!-- v5 Vue 主题 add-on（可选，用于保持原外观） -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@5/dist/themes/addons/vue.min.css">
+
+
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/prism-themes@1/themes/prism-one-light.min.css">
+
+
+  <style>
+    /* 禁用封面页标题的点击事件 */
+    .cover .cover-main h1 a,
+    .cover .cover-main h2 a,
+    .cover .cover-main h3 a,
+    .cover .cover-main h4 a,
+    .cover .cover-main h5 a,
+    .cover .cover-main h6 a {
+      pointer-events: none;
+      /* 核心：让鼠标事件（点击）失效 */
+      text-decoration: none;
+      /* 可选：去掉下划线，让外观更像普通文字 */
+
+
+
+    }
+
+
+    .sidebar .app-name-link img {
+      max-height: 50px;
+      width: auto;
+
+    }
+
+    /* 外层链接：Flex 横向排列，垂直居中 */
+    .sidebar .app-name-link {
+      display: flex;
+      align-items: center;
+
+      /* 关键：Logo 和文字垂直居中对齐 */
+      gap: 10px;
+      /* Logo 和文字的间距，按需调 */
+    }
+
+
+
+    :root {
+
+      --cover-color: #000000;
+      /* 正文字体颜色，通常是白色 */
+      --cover-title-color: var(--theme-color);
+      /* 大标题颜色，可跟随主题色或自定义 */
+
+      /* 针对封面的描述区块 */
+      .cover-main>p,
+      .cover-main blockquote {
+        font-size: 1.3rem;
+        font-weight: 500;
+      }
+
+      /* 调整封面按钮/链接的字体 */
+      .cover-main .anchor span {
+        font-family: var(--font-family);
+        font-weight: 1000;
+        font-size: 3rem;
+      }
+
+
+      /* 取消内容区的最大宽度限制，让它能伸展 */
+      /* --content-max-width: 80%;
+      --sidebar-width: 20%; */
+
+
+      /* 将正文字体改为衬线体，适合长文阅读 */
+      --font-family: "Georgia",
+      "Songti SC",
+      serif;
+      --font-size: 1rem;
+      /* 将代码字体改为你喜欢的等宽字体 */
+      --font-family-mono: "Fira Code",
+      "Consolas",
+      monospace;
+
+
+
+      .markdown-section {
+        font-weight: 500;
+        /* 正常字重 */
+      }
+
+      .markdown-section strong {
+        font-weight: 800;
+        /* 加粗字重 */
+      }
+
+
+
+
+
+
+      --theme-color: #00496A;
+
+
+
+    }
+  </style>
+</head>
+
+<body class="loading sidebar-chevron-left">
+  <div id="app"></div>
+
+  <!-- Configuration -->
+  <script>
+    window.$docsify = {
+      loadSidebar: true,
+
+      subMaxLevel: 3,
+      coverpage: true,
+      auto2top: true,
+      onlyCover: true,
+
+      autoHeader: true,    // 开启自动标题
+
+      name: `<img src="pic/nchu.png" class="sidebar-logo"><span class="sidebar-title">胡睿骏 学习笔记</span>`,
+
+
+      hideSidebar: false,
+
+      copyCode: {
+        buttonText: '点击复制',
+        errorText: '复制失败',
+        successText: '复制成功',
+      },
+      nativeEmoji: true,
+    };
+  </script>
+
+  <script src="//cdn.jsdelivr.net/npm/docsify@5/dist/docsify.min.js"></script>
+
+  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
+
+  <!-- Prism 的 C 语言语法文件 -->
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-c.min.js"></script>
+
+
+
+</body>
+
+</html>
