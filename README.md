@@ -1,10 +1,18 @@
-# 南昌航空大学 胡睿骏 学习笔记
+# 欢迎浏览我的个人学习笔记
 
 
 
-> 笔记主页：https://hrjloveu.github.io/study_note/
+---
 
-> GitHub仓库地址：https://github.com/hrjloveu/study_note
+
+> **2026.10.24**  
+> **南昌航空大学 软件学院 胡睿骏 编写**
+
+---
+
+笔记主页：https://hrjloveu.github.io/study_note/
+
+GitHub仓库地址：https://github.com/hrjloveu/study_note
 
 - 本人纯手敲笔记，已部署至github，欢迎各位同学pull
 
@@ -12,6 +20,6 @@
 
 - 笔记内容不保证完全正确，欢迎各位同学指正
 
-**欢迎各位同学查阅本笔记**
+---
 
 ![p1](pic/p1.jpg ':size=300')
