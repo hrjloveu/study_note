@@ -58,58 +58,34 @@
 
 
     :root {
-
-      --cover-color: #000000;
-      /* 正文字体颜色，通常是白色 */
-      --cover-title-color: var(--theme-color);
-      /* 大标题颜色，可跟随主题色或自定义 */
-
-      /* 针对封面的描述区块 */
-      .cover-main>p,
-      .cover-main blockquote {
-        font-size: 1.3rem;
-        font-weight: 500;
-      }
-
-      /* 调整封面按钮/链接的字体 */
-      .cover-main .anchor span {
-        font-family: var(--font-family);
-        font-weight: 1000;
-        font-size: 3rem;
-      }
-
-
-      /* 取消内容区的最大宽度限制，让它能伸展 */
-      /* --content-max-width: 80%;
-      --sidebar-width: 20%; */
-
-
-      /* 将正文字体改为衬线体，适合长文阅读 */
-      --font-family: "Georgia",
-      "Songti SC",
-      serif;
-      --font-size: 1rem;
-      /* 将代码字体改为你喜欢的等宽字体 */
-      --font-family-mono: "Fira Code",
-      "Consolas",
-      monospace;
-
-
-
-      .markdown-section {
-        font-weight: 500;
-        /* 正常字重 */
-      }
-
-      .markdown-section strong {
-        font-weight: 800;
-        /* 加粗字重 */
-      }
-
+      --color-text: #000000;
       --theme-color: #00496A;
+      --cover-color: #000000;
+      --cover-title-color: var(--theme-color);
 
+      --font-family: "Georgia", "Songti SC", serif;
+      --font-size: 1rem;
+      --font-family-mono: "Fira Code", "Consolas", monospace;
+    }
 
+    .cover-main>p,
+    .cover-main blockquote {
+      font-size: 1.3rem;
+      font-weight: 500;
+    }
 
+    .cover-main .anchor span {
+      font-family: var(--font-family);
+      font-weight: 1000;
+      font-size: 3rem;
+    }
+
+    .markdown-section {
+      font-weight: 500;
+    }
+
+    .markdown-section strong {
+      font-weight: 800;
     }
   </style>
 </head>
