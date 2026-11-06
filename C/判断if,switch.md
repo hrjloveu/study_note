@@ -37,7 +37,7 @@ switch (num) {
 		printf("1");
 		break;//跳出 `switch` 块并停止执行
 	case 2:
-		printf("2");
+		printf("2")
 	    break;
 	default://在没有case匹配时要运行的代码
 		printf("3");
