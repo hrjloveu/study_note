@@ -34,13 +34,13 @@ int grade = 61;
 int num = 5;
 switch (num) {
 	case 1:
-		print("1")
+		printf("1");
 		break;//跳出 `switch` 块并停止执行
 	case 2:
-		print("2")
+		printf("2");
 	    break;
 	default://在没有case匹配时要运行的代码
-		print("3")
+		printf("3");
 }
 ```
 
